@@ -1,3 +1,4 @@
+/Users/s2300305/Projects/Friend Controller/Friend Controller/bin/Debug/net7.0/NLog.config
 /Users/s2300305/Projects/Friend Controller/Friend Controller/bin/Debug/net7.0/appsettings.Development.json
 /Users/s2300305/Projects/Friend Controller/Friend Controller/bin/Debug/net7.0/appsettings.json
 /Users/s2300305/Projects/Friend Controller/Friend Controller/bin/Debug/net7.0/Friend Controller
@@ -7,6 +8,7 @@
 /Users/s2300305/Projects/Friend Controller/Friend Controller/bin/Debug/net7.0/Friend Controller.pdb
 /Users/s2300305/Projects/Friend Controller/Friend Controller/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
 /Users/s2300305/Projects/Friend Controller/Friend Controller/bin/Debug/net7.0/Microsoft.OpenApi.dll
+/Users/s2300305/Projects/Friend Controller/Friend Controller/bin/Debug/net7.0/NLog.dll
 /Users/s2300305/Projects/Friend Controller/Friend Controller/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
 /Users/s2300305/Projects/Friend Controller/Friend Controller/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/s2300305/Projects/Friend Controller/Friend Controller/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll

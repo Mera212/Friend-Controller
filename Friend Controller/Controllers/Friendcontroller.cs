@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using NLog;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,15 +10,20 @@ namespace FriendshipAPI.Controllers
     [Route("api/friends")]
     public class FriendsController : ControllerBase
     {
+        private static NLog.Logger logger = NLog.LogManager.GetCurrentClassLogger();
+
         public static List<string> Friends = new List<string>()
         {
             "Josi,Mario",
             "Paavo,Juha"
         };
 
+        public static Logger Logger { get => logger; set => logger = value; }
+
         [HttpGet]
         public ActionResult<IEnumerable<string>> GetAllFriends()
         {
+            Logger.Debug($"Returning Friends(number of friends){Friends}");
             return Ok(Friends);
         }
 

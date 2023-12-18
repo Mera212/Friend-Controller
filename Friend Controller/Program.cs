@@ -1,4 +1,9 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿
+using NLog;
+
+var builder = WebApplication.CreateBuilder(args);
+var _logger = NLog.LogManager.CreateNullLogger();
+_logger.Info("Program Started");
 
 // Add services to the container.
 
